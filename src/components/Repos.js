@@ -42,24 +42,7 @@ return total;
 
 stars=Object.values(stars).slice(-5).reverse()
 forks=Object.values(forks).slice(-5).reverse()
-const chartData = [
-  {
-    label: 'html',
-    value: '13',
-  },
-  {
-    label: 'css',
-    value: '23',
-  },
-  {
-    label: 'javascript',
-    value: '18',
-  },
-  {
-    label: 'React js',
-    value: '38',
-  },
-]
+
 
 
 
@@ -79,7 +62,7 @@ const chartData = [
 <div>
   <Bar3D data={forks}/>
 </div>
-    <ExampleChart data={chartData }/>
+    // <ExampleChart data={chartData }/>
     </Wrapper>
   </section>
   
